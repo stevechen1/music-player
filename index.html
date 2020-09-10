@@ -46,7 +46,7 @@
         var musicIndex = 0
         function getMusic(callback){
             var xhr = new XMLHttpRequest()
-            xhr.open('get','music-player/music.json',true)
+            xhr.open('get','music.json',true)
             xhr.send()
             xhr.onload = function(){
                 if((xhr.status >= 200 && xhr.status < 300) || xhr.status === 304){
