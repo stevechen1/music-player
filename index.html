@@ -120,6 +120,8 @@
             timer = setInterval(function(){
                 updateProgress()
             },1000)
+            $('iconfont icon-play').classList.toggle('icon-pause')
+            $('iconfont icon-pause').classList.toggle('icon-play')
             console.log('play')
         }
         music.onpause = function(){
@@ -144,6 +146,7 @@
                 console.log(musicIndex)
                 loadMusic(musicList[musicIndex])
         }
+        $('.iconfont .icon-play')onplaying
 
 
 
