@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.cover{
+   position: absolute;
+   content: '';
+   display: block;
+   width: 100%;
+   height: 100%;
+   background: url(../img/1.jpg) center center no-repeat;
+   background-size: cover; 
+   filter: blur();
+}
+.musicbox{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    font-family: cursive;
+    font-size: 30px;
+    color: slategray;
+    width: 440px;
+}
+.musicPanel{
+    border: 1px solid rgba(40,41,35,0.5);
+    padding: 20px 20px 5px 20px;
+    box-shadow: 0px 2px 5px 0px rgba(40,41,35,0.1),0px 2px 10px 0px rgba(40,41,35,0.1);
+    background-color: rgba(40,41,35,0.4);
+}
+.musicbox .control {
+    float: left;
+}
+.musicbox .control i{
+    font-size: 50px;
+    color: rgba(103,216,239,0.4);
+
+}
+.musicbox .control .iconfont {
+    margin-right: 12px;
+    cursor: pointer;
+}
+ .musicbox .control .iconfont.disabled{
+    opacity: 0.3;
+} 
+.musicbox .info {
+    margin-left: 220px;
+    margin-bottom: 30px;
+}
+.musicbox .info .title {
+    font-size: 35px;
+}
+.musicbox .info .author {
+    font-size: 25px;
+}
+.musicbox .progress {
+    width: 360px ;
+}
+ .musicbox .progress .bar {
+   height: 3px;
+   margin-top: 5px;
+   margin-bottom: 30px;
+   background-color: #fff;
+   cursor: pointer;
+} 
+.musicbox .progress .bar .progress-now {
+    background-color: red;
+    width: 0;
+    height: 3px;
+    position: relative;
+}
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}
+.musicbox .list {
+    list-style: none;
+}
+.musicbox .list>li {
+    position: relative;
+    padding: 4px 10px;
+    background-color: rgb(181, 182, 179);
+    color: rgb(10, 12, 7);
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.musicbox .list>li:hover {
+    background-color: rgba(103,216,239,0.4);
+}
+.musicbox .list>li.playing:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    background: rgba(10,20,30,0.3);
+}

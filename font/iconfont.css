@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1599664551447'); /* IE9 */
+  src: url('iconfont.eot?t=1599664551447#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOEAAsAAAAAB8AAAAM3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqCZIInATYCJAMUCwwABCAFhG0HRBuvBsi+QDzEKOanklIELdKKhMyQ3Xcy99XyZMHvHB0P3+9HO/fJXxFJonG7T19P1gTTDJEEndAITSxEbXTP5B0YpzNCMhsR4qLR56Q8x/mC4h+3dIW0pTVNEVXHGaKsGrN+ylMf7zIg51hYUnJ66wWTGlspcfTVA3N8074x55JyyFiW91zGM6a1ZBPff1NghKBIw19gH/5yeqMsgfnsW4mEupaNNXDT2IDRAQe0N0YBBVpAWYLeML3kQf5wm0C7aXzA7c39c8gr/EWBuOlYKuQbEUVh+VahGdhZxAtA1Zqege4BPM8+H/9gKRAkNfNX7pxvGLD8MzcbBGfnWccJBVAf5wLbR8YKgELcH/TclCoyK8DazffS1oF2rZL0MzetTZuz5mM1vi+0B394JCErRAPKdYJ12cJPeERI/MQTgp8kQuYXRfNhbqqgHQ1OgPuQYIY7JPRC3Z1d4924wwT85Z7FL080en5Dd+L1qcu315iub0/vFeVa43vM1geLWr+H5Pnnd4Z0PtKX7BxEqXwm0O7hrn/uhl5i64bia43s4GnstasfgoN4ZL0xUHyioHJWBdY6qPWv5xfFDai5wf6gJwwBq/t9CwQ8Lf97rg5O/gz1o+WNJX9QTPuLwT8wlzV3zdwh3Bul3D9QHtfHwy3AlVwD+zLRtMDaTLkBtmta+4sEgrPOu/Nryv+tFPAj4w1WXSmAfAHwns0Wq3+IemFXsVrfWouujVTaV00eYEqG047fEOj3dYxlaHGK0NpQMyQtppC1mqELfwVVh1U0Wq2h3TLL/g4DklKitGFJCSD0WkLS7SOyXg904X+iGvaNRm+A0e4oyCd2mItA0SBIZTJQu0NHDwMztHMxLzwl68pTRV2bCS9JSCeOi0JxO79FAYkj1shra4nZRFOEPm6C+8jzQoxE6JLOczZz1J4XeYeeNKeHPhRtEYiKEQNyuoMCdKGAmQxmxc77TxHLFY9KTNQ1speIIDnDIwkh8QJ6yxQsqvuUR1KuWZakMRPyEkI+ZAbTiMcTQvHhaS6iY3P8G1KRNlHQz7vUNHe9xX+BStaEf0KNFDlK1GiUu556l442SU5H6ZYzcfVKEgAA') format('woff2'),
+  url('iconfont.woff?t=1599664551447') format('woff'),
+  url('iconfont.ttf?t=1599664551447') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1599664551447#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-play:before {
+  content: "\e60f";
+}
+
+.icon-last:before {
+  content: "\e607";
+}
+
+.icon-next:before {
+  content: "\e612";
+}
+
+.icon-pause:before {
+  content: "\e721";
+}
+

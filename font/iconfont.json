@@ -1,0 +1,37 @@
+{
+  "id": "2056982",
+  "name": "music",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "682425",
+      "name": "播放",
+      "font_class": "play",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "5372696",
+      "name": "上一首",
+      "font_class": "last",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "9991497",
+      "name": "下一首",
+      "font_class": "next",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "12669406",
+      "name": "暂停 停止",
+      "font_class": "pause",
+      "unicode": "e721",
+      "unicode_decimal": 59169
+    }
+  ]
+}
